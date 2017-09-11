@@ -116,6 +116,13 @@ Vendor: Supermicro
     DIMM2A: 0.2.1, 0.3.1; DIMM2B: 0.0.1, 0.1.1;
     DIMM3A: 1.2.0, 1.3.0; DIMM3B: 1.0.0, 1.1.0;
     DIMM4A: 1.2.1, 1.3.1; DIMM4B: 1.0.1, 1.1.1;
+    
+  Model: X9SRL-F
+  # BUG: only half are detected so far.
+    P1-DIMMA1: 0.0.0; P1-DIMMA2: 0.0.1;
+    P1-DIMMB1: 0.1.0; P1-DIMMB2: 0.1.1;
+    P1-DIMMC1: 0.2.0; P1-DIMMC2: 0.2.1;
+    P1-DIMMD1: 0.3.0; P1-DIMMD2: 0.3.1;
 
 Vendor: Dell Computer Corporation
 
